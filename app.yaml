@@ -1,0 +1,8 @@
+runtime: nodejs18
+
+service: travel-expense-client
+
+handlers:
+  - url: /.*
+    secure: always
+    script: auto
