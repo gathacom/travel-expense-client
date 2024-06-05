@@ -12,7 +12,7 @@ const currenciesData = [
     { label: "AUD", value: "AUD" },
 ];
 
-const TotalExpense = ({ totalExpense }) => {
+const TotalExpense = ({ totalExpense = 1000 }) => {
     const [currency, setCurrency] = useState("IDR");
     const [convertedExpense, setConvertedExpense] = useState(totalExpense);
 

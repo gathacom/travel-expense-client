@@ -11,7 +11,7 @@ const TripPage = () => {
   const [username, setUsername] = useState("Gathacom");
   const [modalVisible, setModalVisible] = useState(false);
   const user = useLogin();
-  const [totalExpense, setTotalExpense] = useState(100);
+  const [totalExpense, setTotalExpense] = useState(1000);
   const [trips, setTrips] = useState([]);
 
   const getTrips = async () => {
